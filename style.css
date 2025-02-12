@@ -1,0 +1,229 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Menu */
+  #navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 20px;
+    z-index: 1000; /* Ensure it's on top of other elements */
+    transition: background-color 0.3s ease;
+  }
+  
+  #navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  #navbar ul li {
+    margin: 0 15px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: rgb(241, 235, 235);
+    font-size: 1.2em;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Change color when hovering over a menu item */
+  #navbar ul li a:hover {
+    background-color: #ff7f50;
+    color: rgb(253, 79, 79);
+  }
+  
+  /* Change navbar background color on scroll */
+  .scrolled {
+    background-color: #222;
+  }
+  
+  /* Hero Section */
+  #hero {
+    background: url('https://img.freepik.com/premium-vector/group-people-working-out_18591-47502.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(13, 13, 13);
+    padding: 0 20px;
+    margin-top: 60px; /* To avoid navbar covering the hero section */
+  }
+  
+  .hero-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff7f50;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 5px;
+  }
+  
+  .cta-button:hover {
+    background-color: #e76b3d;
+  }
+  
+  /* Features Section */
+  #features {
+    background-color: #fcfafa;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  #features h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .feature-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  #testimonials {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonials {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+  }
+  
+  .testimonial {
+    background: #fff;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .testimonial p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial p:last-child {
+    font-style: italic;
+  }
+  
+  /* Pricing Section */
+  #pricing {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #pricing h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+  }
+  
+  .pricing-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .pricing-card {
+    background: #f0f0f0;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .pricing-card h3 {
+    font-size: 1.6em;
+    margin-bottom: 10px;
+  }
+  
+  .pricing-card p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  /* Download Section */
+  #download {
+    background-color: #ff7f50;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .download-buttons a {
+    background-color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #ff7f50;
+    font-size: 1.2em;
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+  }
+  
+  .download-buttons a:hover {
+    background-color: #e76b3d;
+    color: white;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: rgb(248, 162, 162);
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  footer a {
+    color: #ff7f50;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
